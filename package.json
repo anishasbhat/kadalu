@@ -1,0 +1,16 @@
+{
+  "name": "kadalu",
+  "version": "0.1.0",
+  "description": "Dolphins hunting fish off the Karnataka coast, drawn in Kannada letters on a canvas. Zero runtime dependencies.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "vite": "^5.4.10"
+  }
+}

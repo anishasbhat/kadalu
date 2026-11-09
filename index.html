@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="kn">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ಕಡಲು · Dolphins</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wght@600&display=swap" rel="stylesheet" />
+    <style>
+      html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+      body[data-theme="light"] { background: #fff; }
+      canvas { display: block; width: 100vw; height: 100vh; font-family: "Noto Sans Kannada", sans-serif; cursor: crosshair; }
+      .tag {
+        position: fixed; left: 16px; bottom: 14px; margin: 0;
+        font: 600 13px "Noto Sans Kannada", sans-serif; color: rgba(110, 170, 220, 0.6);
+        pointer-events: none; letter-spacing: 0.02em;
+      }
+      body[data-theme="light"] .tag { color: rgba(60, 84, 110, 0.6); }
+    </style>
+  </head>
+  <body>
+    <canvas aria-label="Dolphins hunting fish, seen from above, drawn in Kannada letters"></canvas>
+    <p class="tag">ಕಡಲು — click the water</p>
+    <script type="module" src="./demo.ts"></script>
+  </body>
+</html>
