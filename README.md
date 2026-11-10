@@ -1,4 +1,4 @@
-# ಕಡಲು · kadalu
+# ಕಡಲು · kadalu (ocean)
 
 ```
                  ದಡ
@@ -12,8 +12,8 @@
       ನಮಮಮ                  ನಮಮಮ
 ```
 
-Dolphins hunting fish off the Karnataka coast, drawn in Kannada
-letters on a canvas, seen from above. Zero runtime dependencies.
+Dolphins hunting fish off the Karnataka coast, inspired by my dolphin watching at [Om Beach](https://www.google.com/search?sca_esv=c37d4853c79ba7e1&sxsrf=AKL5yDh1RLbPsHyigzpiZWnEo2PvVHiZ8A:1794280062837&udm=2&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_koHVe5RLSnJlTH2QYaq_YVfnwA0k4pzZ9d-ZbRA0e6twiIZ3143njO9lVkG2CPCx-CPU1s3TIfm2LvslANp1Btnz-wYMvScn-eBWIzVts6YKnYRAMeotQQdHyIXGm9cm4wInYYfqBGlK_hBRiJxlzhyJX7UP2kIRyeu67nS8xlJT_Vfcz9Va8tf2581-RjBO25lXi-g&q=om+beach&sa=X&sqi=2&ved=2ahUKEwjr95aOtvyXAxVpk4kEHYAEJ2oQtKgLegQIFRAB&biw=1440&bih=728&dpr=2), near my hometown, [Kumta](https://en.wikipedia.org/wiki/Kumta).
+Drawn in [Kannada](https://en.wikipedia.org/wiki/Kannada) letters on a canvas, seen from above. Zero runtime dependencies.
 
 ```sh
 npm install && npm run dev
@@ -29,33 +29,27 @@ The canvas's CSS `font-family` is the font used; the demo loads Noto Sans Kannad
 
 ## What you're looking at
 
-Everything is seen from above; the whole screen is sea. On the light theme
-the letters turn to ink: denser where the skin is in shadow.
+Everything is seen from above; the whole screen is sea.
 
-Each animal is written in the letters of its own Kannada name, ordered from
-light to heavy ink.
+Each animal is written in the letters of its own Kannada name.
 
-- **Dolphins** are a mosaic of small shaded tiles, each carrying a letter of
-  ಕಡಲಹಂದಿ (*kaḍala handi*, "sea pig", a coastal name for the dolphin): light
-  ಲ ಕ where there's little ink, through ದ ಡ, to heavy ಹ. Lit from the upper
-  left, with a beak, flippers out to the sides, a dorsal ridge, a ೦ blowhole
-  and crescent flukes. Each has its own skin: slate grey, the pink-grey of
+- **Dolphins** carry a letter of ಕಡಲಹಂದಿ (*kaḍala handi*, "sea pig", a coastal
+  name for the dolphin). Each has its own skin: slate grey, the pink-grey of
   the Indo-Pacific humpback dolphins seen off Karnataka, a darker bottlenose
-  grey, or a paler, older humpback. Their bodies bend through every turn as
-  they cruise and hunt.
+  grey, or a paler, older humpback.
+  
 - **Fish** are mosaics in muted oranges (apricot, burnt orange, amber,
   salmon), close in hue to the pink-grey dolphins, with forked, beating
-  tails. They're written in the letters of ಮೀನು (*mīnu*, "fish"): ನ at the
-  faint edges, ಮ in the body. Each swims alone on its own meandering course,
-  keeps its distance from the others, and bolts when a dolphin comes close.
-- **Wakes and ripples** are faint ೦ bubbles.
+  tails. They're written in the letters of ಮೀನು (*mīnu*, "fish"). Each
+  swims alone on its own meandering course, keeps its distance from the others,
+  and bolts when a dolphin comes close.
+
 
 Move the mouse to scatter the fish. Click the water: a ripple spreads, the
 fish scatter, and the nearest dolphin dashes over.
 
-`?theme=light` swaps the black sea for white cells on blue grid lines. `?dolphins=4` sets the pod size (up to 10; the default is 4, or 3 on small screens). `prefers-reduced-motion` gets one settled frame.
 
-Indo-Pacific humpback and bottlenose dolphins are regularly seen off Karwar,
+Indo-Pacific humpback and bottlenose dolphins are regularly seen off [Karwar](https://en.wikipedia.org/wiki/Karwar),
 Netrani Island and Udupi.
 
 Inspired by [ascii-sharks](https://github.com/stackedlol/ascii-sharks).
